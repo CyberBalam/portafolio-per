@@ -1,28 +1,10 @@
-canvas {
-
-    background-color: black;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
-    background-size: cover;
-    transition: 1s opacity
-    
+  .fondo-t{
+    background-color: rgb(41, 93, 153);
   }
 
   .separa{
     background-color: rgb(138, 138, 138);
     box-sizing: border-box;
-  }
-  
-  .emble{
-    height: 80%;
-    width: 80%;
-    padding: 0;
-    background-color: transparent;
   }
 
   @media(max-height:1024px max-width:768px){
