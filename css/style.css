@@ -7,7 +7,7 @@
     box-sizing: border-box;
   }
 
-  @media (max-height:1024px max-width:768px){
+  @media (max-height: 1024px max-width 768px){
 
     .emble{
       height: 100%;
