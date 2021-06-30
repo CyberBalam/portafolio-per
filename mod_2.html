@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Ejemplo_3D</title>
+		<title>Ejemplo_3D_2</title>
 		
 	</head>
 	<body>
@@ -13,13 +13,8 @@
 
             //scene
             var scene = new THREE.Scene();
-            scene.background = new THREE.Color(0xB34649);
-            scene.fog = new THREE.Fog(0x1EE87A, 0.1,10)
-
-            var loader = new THREE.TextureLoader();
-            loader.load('rec/S-Tec.jpg', function(texture) {
-                scene.background = texture;
-            });
+            scene.background = new THREE.Color(0xFFFFE1);
+            
 
             //camera
             var camera = new THREE.PerspectiveCamera(
@@ -35,7 +30,7 @@
             //geometry
             var geometry = new THREE.BoxGeometry();
             var material = new THREE.MeshBasicMaterial({color: 0xFF1010, 
-                //wireframe: true
+                wireframe: true
             });
             var cube = new THREE.Mesh(geometry, material);
 
